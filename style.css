@@ -103,6 +103,7 @@ body {
 .grid-item img {
   width: 25vh;
   height: 35vh;
+  border-radius: 3px;
   justify-content: center;
   align-items: center;
 }
@@ -151,4 +152,23 @@ body {
 .socials i:hover {
   opacity: 0.7;
   transition: all 0.2s linear;
+}
+
+.grid-item div {
+  position: relative;
+}
+
+#fav {
+  position: absolute;
+  bottom: 10px;
+  right: 35px;
+  padding: 6px;
+  color: transparent;
+  -webkit-text-stroke: 1px #ff0000;
+  transition: 0.6s;
+}
+
+#fav:hover {
+  transition: 1ss;
+  font-size: 20px;
 }

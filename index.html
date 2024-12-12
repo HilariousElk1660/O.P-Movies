@@ -10,6 +10,23 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <style>
+      swiper-container {
+        width: 100%;
+        height: 300px;
+        margin: 20px auto;
+        z-index: 0;
+      }
+
+      swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
     <div class="sidebar">
@@ -62,47 +79,60 @@
       <h2>Latest Movies</h2>
       <div class="grid-container">
         <div class="grid-item">
+          <div>
           <img src="/imgs/pic.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart" onclick="changeColor()" ondblclick="toDefault()" ></i></abbr>
+        </div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
+        <div>
           <img src="/imgs/nite.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart" onclick="changeColor()" ondblclick="toDefault()" ></i></abbr>
+        </div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/skull.jpg" alt="" />
+          <div><img src="/imgs/skull.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/card.jpg" alt="" />
+          <div><img src="/imgs/card.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/pic.jpg" alt="" />
+          <div><img src="/imgs/pic.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/skull.jpg" alt="" />
+          <div><img src="/imgs/skull.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/nite.jpg" alt="" />
+          <div><img src="/imgs/nite.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/card.jpg" alt="" />
+          <div><img src="/imgs/card.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/skull.jpg" alt="" />
+          <div><img src="/imgs/skull.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet</p>
         </div>
@@ -111,32 +141,38 @@
       <h2>Latest Tv Shows</h2>
       <div class="grid-container">
         <div class="grid-item">
-          <img src="/imgs/pic.jpg" alt="" />
+          <div><img src="/imgs/pic.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/nite.jpg" alt="" />
+          <div><img src="/imgs/nite.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/skull.jpg" alt="" />
+          <div><img src="/imgs/skull.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/card.jpg" alt="" />
+          <div><img src="/imgs/card.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/pic.jpg" alt="" />
+          <div><img src="/imgs/pic.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="grid-item">
-          <img src="/imgs/skull.jpg" alt="" />
+          <div><img src="/imgs/skull.jpg" alt="" />
+          <abbr title="Add to Watch list"><i id="fav" class="fa fa-heart"onclick="changeColor()" ondblclick="toDefault()" ></i></abbr></div>
           <h3>Name</h3>
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
@@ -144,9 +180,12 @@
 
       <h2>Trending Movies</h2>
 
-        
+      <swiper-container init="false"></swiper-container>
 
       <h2>Trending Tv Shows</h2>
+
+      <swiper-container init="false"></swiper-container>
+
 
       <footer style="background-color: #1c1c1c; color: #fff; padding: 20px 0; text-align: center;">
         <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
@@ -156,8 +195,9 @@
           </div>
           <div style="flex: 1; min-width: 200px; padding: 10px;">
             <h4 style="color: #ff6f61; padding-bottom: 10px;">Contact Us</h4>
-            <p style="padding-bottom: 5px;">Email: jonathanobi47@gmail.com</p>
-            <p>Phone: +12 345 6789</p>
+            <p style="padding-bottom: 5px;">jonathanobi47@gmail.com</p>
+            <p style="padding-bottom: 5px;"> +27 123 4567 </p>
+            <a href="#" class="portfolio-site" style="padding-bottom: 5px; text-decoration: none; color: #fff;"><abbr title="Web Portfolio">http://www.jonathanobi.com</abbr></a>
           </div>
           <div style="flex: 1; min-width: 200px; padding: 10px;">
             <h4 style="color: #ff6f61; padding-bottom: 10px;">Follow Us</h4>
@@ -170,11 +210,38 @@
           </div>
         </div>
         <div style="border-top: 1px solid #444; margin-top: 20px; padding-top: 10px;">
-          <p>&copy; 2024 O.P - Movies. All rights reserved.</p>
+          <p>&copy; 2025 O.P - Movies. All rights reserved.</p>
         </div>
       </footer>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script>
+      const swiperEl = document.querySelector("swiper-container");
+
+      Object.assign(swiperEl, {
+        slidesPerView: 2,
+        centeredSlides: true,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false
+        },
+        virtual: {
+          slides: (function () {
+            const slides = [];
+            for (var i = 0; i < 10; i += 1) {
+              slides.push("Movie " + (i + 1));
+            }
+            return slides;
+          })(),
+        },
+      });
+
+      swiperEl.initialize();
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
