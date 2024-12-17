@@ -109,9 +109,10 @@ body {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
   grid-template-columns: auto auto auto auto;
+  margin: 20px 0px;
 }
 
-.grid-item, .grid-item2 img {
+.grid-item img, .grid-item2 img {
   position: relative;
   width: 25vh;
   height: 35vh;
