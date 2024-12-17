@@ -102,7 +102,16 @@ body {
   grid-template-columns: auto auto auto;
 }
 
-.grid-item img {
+.grid-container2 {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-item, .grid-item2 img {
   position: relative;
   width: 25vh;
   height: 35vh;
@@ -116,6 +125,13 @@ body {
   transition: 1s;
   width: 27vh;
   height: 37vh;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.grid-item2 img:hover {
+  transition: 1s;
+  width: 26vh;
+  height: 36vh;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 

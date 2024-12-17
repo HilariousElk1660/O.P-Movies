@@ -21,6 +21,7 @@
       swiper-slide {
         text-align: center;
         font-size: 18px;
+        /* background: url(./imgs/movie.png); */
         background: #fff;
         display: flex;
         justify-content: center;
@@ -184,8 +185,6 @@
 
       <h2>Trending Tv Shows</h2>
 
-      <swiper-container init="false"></swiper-container>
-
 
       <footer style="background-color: #000000; color: #7b7a7a; padding: 20px 0; text-align: center;">
         <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
@@ -227,7 +226,7 @@
         loop: true,
         autoplay: {
           delay: 2500,
-          disableOnInteraction: true
+          disableOnInteraction: false
         },
         virtual: {
           slides: (function () {
